@@ -1,0 +1,32 @@
+<html>
+<head>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+
+    <link href="css/lightbox.css" rel="stylesheet" />
+
+
+    <script type="text/javascript" src="js/instafeed.min.js"></script>
+</head>
+<body>
+
+    <div id="insta" style="margin: 5%; text-align: center" >
+        <h1>Instagram Feed</h1>
+    </div>
+
+        <script type="text/javascript">
+            var userFeed = new Instafeed({
+                get: 'user',
+                userId: 1660191409,
+                accessToken: '1660191409.467ede5.b2b29da9b26f4527aa4872d3f339d2f5',
+                resolution: 'standard_resolution',
+                template: '<a href="{{image}}" data-lightbox="instagram"><img src="{{image}}" style="width: 25%" /></a>'
+
+
+            });
+            userFeed.run();
+        </script>
+
+    <div id="instafeed"></div>
+</body>
+</html>
