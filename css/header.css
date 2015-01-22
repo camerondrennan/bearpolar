@@ -1,0 +1,66 @@
+#pageBox
+{
+    font-family: "Source Sans Pro";
+    width: 85%;
+    margin: 0.5% 5%;
+    background-color: brown;
+    padding: 2.5%;
+}
+
+#header
+{
+    text-align: center;
+    background-color: aqua;
+    padding: 1%;
+    margin:1%;
+}
+
+#header h1
+{
+    font-size: 300%;
+}
+
+#nav
+{
+    background-color: chartreuse;
+    word-spacing: 5em;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 1%;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li
+{
+    display: inline;
+}
+
+/* unvisited link */
+a:link {
+    color: #000;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #7c7c7c;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #7c7c7c;
+    text-decoration: none;
+}
