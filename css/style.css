@@ -1,0 +1,69 @@
+#content
+{
+    margin: 1% 1%;
+    padding: 1%;
+}
+
+#index
+{
+    margin: 1% 1%;
+    height: auto;
+    overflow: hidden;
+}
+
+#index iframe
+{
+    border: none;
+    width: 48%;
+    margin: 1%;
+    height: 500px;
+    float: left;
+}
+
+#instagram
+{
+    margin: 1%;
+    padding: 1%;
+    height: auto;
+    overflow: hidden;
+}
+
+#facebook
+{
+    width: 50%;
+    margin: 1% auto;
+    padding: 1%;
+    height: auto;
+    overflow: hidden;
+}
+
+#twitter
+{
+    width: 30%;
+    margin: 1% auto;
+    padding: 1%;
+    height: auto;
+    overflow: hidden;
+}
+
+#events
+{
+    width: 50%;
+    height: auto;
+    margin: 1% auto;
+    padding: 1%;
+}
+
+h1
+{
+    text-align: center;
+}
+
+#event
+{
+    margin: 1%;
+    padding: 1%;
+    height: auto;
+    font-size: 150%;
+    overflow: hidden;
+}

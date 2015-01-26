@@ -3,14 +3,12 @@
     font-family: "Source Sans Pro";
     width: 85%;
     margin: 0.5% 5%;
-    background-color: brown;
     padding: 2.5%;
 }
 
 #header
 {
     text-align: center;
-    background-color: aqua;
     padding: 1%;
     margin:1%;
 }
@@ -22,11 +20,16 @@
 
 #nav
 {
-    background-color: chartreuse;
     word-spacing: 5em;
     font-size: 150%;
     font-weight: bold;
     padding: 1%;
+    margin: 1%;
+    border-bottom-color: #7c7c7c;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+
+
 }
 
 ul
